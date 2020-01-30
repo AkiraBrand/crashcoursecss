@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
 body{
   background-color: #f4f4f4;
   color: #555555;
@@ -27,6 +32,23 @@ body{
   border-top: 5px red solid;
   border-bottom: 5px red solid; */
 
+  border-width: 3px;
+  border-bottom-width:10px;
+  border-top-style:dotted;
+  border-top-style:dashed;
   border: 5px red solid;
 
+
+  margin-top:20px;
+
+  padding: 20px;
+}
+
+.box-1 h1{
+  font-family:Tahoma;
+  font-weight:800;
+  font-style:italic;
+  text-transform:uppercase;
+  letter-spacing:0.2em;
+  word-spacing:1em;
 }
